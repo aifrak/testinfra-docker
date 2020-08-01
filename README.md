@@ -2,7 +2,7 @@
 Installation of a dockerized testinfra (Debian).
 
 ### Docker
-docker push aifrak/testinfra:latest
+docker pull aifrak/testinfra
 
 ### Docker hub
 https://hub.docker.com/r/aifrak/testinfra
