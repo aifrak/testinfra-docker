@@ -1,0 +1,9 @@
+FROM aifrak/base-image:sut
+
+ARG DOCKER_TEST_DIR=./docker/test
+
+RUN mkdir -p $DOCKER_TEST_DIR
+
+WORKDIR $DOCKER_TEST_DIR
+
+COPY ./test .
