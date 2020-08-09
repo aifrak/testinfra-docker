@@ -6,18 +6,19 @@ Installation of a dockerized testinfra (Debian).
 [![Docker Pulls](https://img.shields.io/docker/pulls/aifrak/testinfra?color=yellow)](https://hub.docker.com/r/aifrak/testinfra/)
 [![GitHub](https://img.shields.io/github/license/aifrak/testinfra-docker?color=blue)](https://github.com/aifrak/testinfra-docker/blob/master/LICENSE)
 
-### How to use this image
+## How to use this image
 ```
 docker run -it --rm aifrak/testinfra
 ```
 
-### Docker
+## Docker
 ```
 docker pull aifrak/testinfra
 ```
 
-### Docker hub
-https://hub.docker.com/r/aifrak/testinfra
+## Quick references
+- Docker hub: https://hub.docker.com/r/aifrak/testinfra
+- Github: https://github.com/aifrak/testinfra-docker
 
-### testinfra
-https://testinfra.readthedocs.io/
+## Technologies
+[testinfra](https://testinfra.readthedocs.io/)
